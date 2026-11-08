@@ -1,0 +1,16 @@
+{
+  "features": {
+    "queue_minutes": "numeric",
+    "description_words": "numeric",
+    "channel": "categorical",
+    "priority": "categorical"
+  },
+  "segment_by": "region",
+  "min_rows": 40,
+  "min_segment_rows": 50,
+  "thresholds": {
+    "numeric_tv": 0.2,
+    "categorical_js": 0.04,
+    "missing_delta": 0.1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "rows_per_snapshot": 25000,
+  "runs": 3,
+  "timed_scope": "CSV parsing, validation, hashing, comparison; excludes data generation and HTML/JSON serialization",
+  "durations_ms": [
+    925.3,
+    888.48,
+    868.89
+  ],
+  "median_ms": 888.48,
+  "peak_tracemalloc_mb": [
+    29.35,
+    29.33,
+    29.33
+  ],
+  "alerts": 8,
+  "analysis_id": "c8f7a9cd97c640a46c82439b0274cbed5dd0dadcdf407214c71500d7328bc745",
+  "python": "3.14.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+}
