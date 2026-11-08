@@ -1,0 +1,268 @@
+{
+  "analysis_id": "39568a069a554f9f8781798717c7a4e8d45dd1869bd292a77442fddb7a53155e",
+  "config": {
+    "features": {
+      "channel": "categorical",
+      "description_words": "numeric",
+      "priority": "categorical",
+      "queue_minutes": "numeric"
+    },
+    "min_rows": 40,
+    "min_segment_rows": 50,
+    "segment_by": "region",
+    "thresholds": {
+      "categorical_js": 0.04,
+      "missing_delta": 0.1,
+      "numeric_tv": 0.2
+    }
+  },
+  "current": {
+    "rows": 600,
+    "sha256": "6db92ee2fb83bdba226fcc743ab0aa2bd92e9646072cadfda873eee8c63b4916"
+  },
+  "generated_at_utc": "2026-11-08T18:48:54.635858+00:00",
+  "global": [
+    {
+      "after_count": 600,
+      "alerts": [
+        "numeric_tv"
+      ],
+      "before_count": 600,
+      "buckets": 8,
+      "feature": "queue_minutes",
+      "kind": "numeric",
+      "median_after": 16.9,
+      "median_before": 13.8,
+      "missing_after": 0.0,
+      "missing_before": 0.0,
+      "missing_delta": 0.0,
+      "score": 0.266667,
+      "score_name": "numeric_tv",
+      "status": "alert"
+    },
+    {
+      "after_count": 506,
+      "alerts": [
+        "missing_delta"
+      ],
+      "before_count": 580,
+      "buckets": 8,
+      "feature": "description_words",
+      "kind": "numeric",
+      "median_after": 83.5,
+      "median_before": 86.0,
+      "missing_after": 0.156667,
+      "missing_before": 0.033333,
+      "missing_delta": 0.123333,
+      "score": 0.071896,
+      "score_name": "numeric_tv",
+      "status": "alert"
+    },
+    {
+      "after_count": 600,
+      "alerts": [
+        "categorical_js"
+      ],
+      "before_count": 600,
+      "categories": 3,
+      "feature": "channel",
+      "kind": "categorical",
+      "missing_after": 0.0,
+      "missing_before": 0.0,
+      "missing_delta": 0.0,
+      "new_categories": 0,
+      "score": 0.04313,
+      "score_name": "categorical_js",
+      "status": "alert"
+    },
+    {
+      "after_count": 600,
+      "alerts": [],
+      "before_count": 600,
+      "categories": 3,
+      "feature": "priority",
+      "kind": "categorical",
+      "missing_after": 0.0,
+      "missing_before": 0.0,
+      "missing_delta": 0.0,
+      "new_categories": 0,
+      "score": 6.4e-05,
+      "score_name": "categorical_js",
+      "status": "pass"
+    }
+  ],
+  "reference": {
+    "rows": 600,
+    "sha256": "a6a672442ad9a84653c52f8dbca5c38dbedfea0263086ef3950a1d69541369eb"
+  },
+  "schema": {
+    "added_columns": [],
+    "missing_configured_features": [],
+    "removed_columns": []
+  },
+  "schema_version": 1,
+  "segment_missing": {
+    "after": 0.0,
+    "alert": false,
+    "before": 0.0,
+    "delta": 0.0
+  },
+  "segments": [
+    {
+      "after_count": 213,
+      "before_count": 190,
+      "features": [
+        {
+          "after_count": 213,
+          "alerts": [
+            "numeric_tv"
+          ],
+          "before_count": 190,
+          "buckets": 8,
+          "feature": "queue_minutes",
+          "kind": "numeric",
+          "median_after": 24.7,
+          "median_before": 13.65,
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "score": 0.771263,
+          "score_name": "numeric_tv",
+          "status": "alert"
+        },
+        {
+          "after_count": 186,
+          "alerts": [],
+          "before_count": 184,
+          "buckets": 8,
+          "feature": "description_words",
+          "kind": "numeric",
+          "median_after": 85.0,
+          "median_before": 85.0,
+          "missing_after": 0.126761,
+          "missing_before": 0.031579,
+          "missing_delta": 0.095182,
+          "score": 0.060192,
+          "score_name": "numeric_tv",
+          "status": "pass"
+        },
+        {
+          "after_count": 213,
+          "alerts": [
+            "categorical_js"
+          ],
+          "before_count": 190,
+          "categories": 3,
+          "feature": "channel",
+          "kind": "categorical",
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "new_categories": 0,
+          "score": 0.042571,
+          "score_name": "categorical_js",
+          "status": "alert"
+        },
+        {
+          "after_count": 213,
+          "alerts": [],
+          "before_count": 190,
+          "categories": 3,
+          "feature": "priority",
+          "kind": "categorical",
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "new_categories": 0,
+          "score": 0.001251,
+          "score_name": "categorical_js",
+          "status": "pass"
+        }
+      ],
+      "name": "EU",
+      "status": "compared"
+    },
+    {
+      "after_count": 387,
+      "before_count": 410,
+      "features": [
+        {
+          "after_count": 387,
+          "alerts": [],
+          "before_count": 410,
+          "buckets": 8,
+          "feature": "queue_minutes",
+          "kind": "numeric",
+          "median_after": 14.2,
+          "median_before": 13.95,
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "score": 0.0677,
+          "score_name": "numeric_tv",
+          "status": "pass"
+        },
+        {
+          "after_count": 320,
+          "alerts": [
+            "missing_delta"
+          ],
+          "before_count": 396,
+          "buckets": 8,
+          "feature": "description_words",
+          "kind": "numeric",
+          "median_after": 83.0,
+          "median_before": 86.0,
+          "missing_after": 0.173127,
+          "missing_before": 0.034146,
+          "missing_delta": 0.13898,
+          "score": 0.077241,
+          "score_name": "numeric_tv",
+          "status": "alert"
+        },
+        {
+          "after_count": 387,
+          "alerts": [
+            "categorical_js"
+          ],
+          "before_count": 410,
+          "categories": 3,
+          "feature": "channel",
+          "kind": "categorical",
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "new_categories": 0,
+          "score": 0.045608,
+          "score_name": "categorical_js",
+          "status": "alert"
+        },
+        {
+          "after_count": 387,
+          "alerts": [],
+          "before_count": 410,
+          "categories": 3,
+          "feature": "priority",
+          "kind": "categorical",
+          "missing_after": 0.0,
+          "missing_before": 0.0,
+          "missing_delta": 0.0,
+          "new_categories": 0,
+          "score": 0.000646,
+          "score_name": "categorical_js",
+          "status": "pass"
+        }
+      ],
+      "name": "US",
+      "status": "compared"
+    }
+  ],
+  "summary": {
+    "alerts": 7,
+    "cohort_alerts": 0,
+    "passed": false,
+    "reviews": 0,
+    "schema_alerts": 0,
+    "score_alerts": 7
+  }
+}
